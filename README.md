@@ -2,7 +2,7 @@
 
 Comprehensive AWS DevOps learning project covering CLI automation, architecture assessment, and security implementation.
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 devops_upskilling_project/
@@ -19,28 +19,28 @@ devops_upskilling_project/
 └── README.md                          # This file
 ```
 
-## 🎯 Labs Completed
+##  Labs Completed
 
-### Lab 1.1: AWS CLI & Multi-Region Deployment ✅
+### Lab 1.1: AWS CLI & Multi-Region Deployment 
 
 - Multi-region S3 bucket deployment (us-east-1, eu-west-1, ap-southeast-1)
 - Automated resource management with cleanup capabilities
 - Shell scripting fundamentals and AWS CLI proficiency
 
-### Lab 1.2: Well-Architected Framework Assessment ✅
+### Lab 1.2: Well-Architected Framework Assessment 
 
 - 3-tier web application architecture design
 - Complete 6-pillar assessment (35+ improvements identified)
 - Service quotas analysis and scalability planning
 - Priority matrix with cost-benefit analysis
 
-### Security Implementation ✅
+### Security Implementation 
 
 - Automated security audit script
 - IAM password policy implementation
 - Security issue remediation documentation
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 
@@ -76,7 +76,7 @@ cd shared-responsibility
 ./security-audit.sh
 ```
 
-## 📋 Key Features
+##  Key Features
 
 ### Multi-Region S3 Deployment
 
@@ -115,31 +115,31 @@ cd shared-responsibility
 - Multi-AZ deployment across 2 availability zones
 - VPC with public/private subnet segmentation
 
-## 📊 Results & Achievements
+##  Results & Achievements
 
 ### Lab 1.1 Outcomes
 
-- ✅ Successfully deployed S3 buckets across 3 regions
-- ✅ Implemented automated cleanup with safety confirmations
-- ✅ Mastered AWS CLI regional configurations
-- ✅ Created reusable automation scripts
+-  Successfully deployed S3 buckets across 3 regions
+-  Implemented automated cleanup with safety confirmations
+-  Mastered AWS CLI regional configurations
+-  Created reusable automation scripts
 
 ### Lab 1.2 Outcomes
 
-- ✅ Designed production-ready 3-tier architecture
-- ✅ Identified 35+ specific improvements across 6 pillars
-- ✅ Created priority matrix with cost-benefit analysis
-- ✅ Estimated 18% cost savings potential
-- ✅ Achieved compliance readiness (PCI DSS, HIPAA, SOC 2)
+-  Designed production-ready 3-tier architecture
+-  Identified 35+ specific improvements across 6 pillars
+-  Created priority matrix with cost-benefit analysis
+-  Estimated 18% cost savings potential
+-  Achieved compliance readiness (PCI DSS, HIPAA, SOC 2)
 
 ### Security Implementation Outcomes
 
-- ✅ Fixed critical IAM password policy issue
-- ✅ Achieved compliance with security standards
-- ✅ Created automated security audit process
-- ✅ Documented remediation procedures
+- Fixed critical IAM password policy issue
+- Achieved compliance with security standards
+- Created automated security audit process
+- Documented remediation procedures
 
-## 🐛 Common Issues & Solutions
+##  Common Issues & Solutions
 
 ### AWS CLI Issues
 
@@ -159,7 +159,7 @@ cd shared-responsibility
 - **Policy Updates**: Some changes require account-level permissions
 - **Verification**: Re-run audit after implementing fixes
 
-## 📚 Learning Resources
+##  Learning Resources
 
 ### AWS Documentation
 
@@ -174,28 +174,28 @@ cd shared-responsibility
 - AWS CLI v2 - Command line interface
 - Git Bash - Shell scripting environment
 
-## 📝 Project Status
+##  Project Status
 
-### Lab 1.1: AWS CLI & Multi-Region Deployment ✅
+### Lab 1.1: AWS CLI & Multi-Region Deployment 
 
-- ✅ AWS CLI setup and configuration
-- ✅ Multi-region S3 deployment automation
-- ✅ Resource inventory and management
-- ✅ Cleanup and safety mechanisms
+-  AWS CLI setup and configuration
+-  Multi-region S3 deployment automation
+-  Resource inventory and management
+-  Cleanup and safety mechanisms
 
-### Lab 1.2: Well-Architected Framework Assessment ✅
+### Lab 1.2: Well-Architected Framework Assessment 
 
-- ✅ 3-tier architecture design
-- ✅ Complete 6-pillar assessment
-- ✅ Service quotas analysis
-- ✅ Priority matrix with 35+ improvements
+-  3-tier architecture design
+-  Complete 6-pillar assessment
+-  Service quotas analysis
+-  Priority matrix with 35+ improvements
 
-### Security Implementation ✅
+### Security Implementation 
 
-- ✅ Automated security audit
-- ✅ IAM password policy implementation
-- ✅ Security compliance achievement
-- ✅ Remediation documentation
+-  Automated security audit
+-  IAM password policy implementation
+-  Security compliance achievement
+-  Remediation documentation
 
 ## 🎓 Skills Demonstrated
 
