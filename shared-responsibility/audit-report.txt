@@ -1,0 +1,55 @@
+======================================
+AWS Security Audit
+======================================
+Started: Wed Oct 22 14:59:05 GST 2025
+
+======================================
+1. S3 Bucket Security
+Found 3 bucket(s) to audit
+
+Checking bucket: amalitech-devops-ap-southeast-1-20251022-114424
+[0;32m✓[0m   Public access properly blocked for amalitech-devops-ap-southeast-1-20251022-114424
+[0;32m✓[0m   Encryption enabled for amalitech-devops-ap-southeast-1-20251022-114424
+
+Checking bucket: amalitech-devops-eu-west-1-20251022-114424
+[0;32m✓[0m   Public access properly blocked for amalitech-devops-eu-west-1-20251022-114424
+[0;32m✓[0m   Encryption enabled for amalitech-devops-eu-west-1-20251022-114424
+
+Checking bucket: amalitech-devops-us-east-1-20251022-114424
+[0;32m✓[0m   Public access properly blocked for amalitech-devops-us-east-1-20251022-114424
+[0;32m✓[0m   Encryption enabled for amalitech-devops-us-east-1-20251022-114424
+
+======================================
+2. IAM Security
+[0;32m✓[0m Root account MFA is enabled
+[0;31m✗[0m No password policy configured
+
+Generating IAM credential report...
+[0;32m✓[0m Credential report generated successfully
+[0;32m✓[0m All users have MFA enabled
+[1;33m⚠[0m 1 access key(s) older than 90 days
+
+======================================
+3. VPC Flow Logs
+[0;31m✗[0m VPC Flow Logs not enabled for vpc-0d6f5cfa162fcc30e
+
+======================================
+4. CloudTrail
+[0;31m✗[0m No CloudTrail trails configured
+
+======================================
+5. Security Groups
+[0;32m✓[0m No security groups with SSH open to internet
+[0;32m✓[0m No security groups with RDP open to internet
+
+======================================
+Audit Summary
+======================================
+[0;32mPassed:[0m 11
+[1;33mWarnings:[0m 1
+[0;31mFailed:[0m 3
+
+Total Issues: 4
+
+Completed: Wed Oct 22 15:00:02 GST 2025
+======================================
